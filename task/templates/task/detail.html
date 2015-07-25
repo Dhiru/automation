@@ -1,0 +1,10 @@
+<html>
+    <body>
+        <h1>User Lists</h1>
+        <ul>
+        {% for user in users %}
+            <li title='{{ user.task }}'>{{ user.name }}</li>
+        {% endfor %}
+        </ul>
+    </body>
+</html>
