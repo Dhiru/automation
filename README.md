@@ -12,4 +12,8 @@ Steps:
 8. cd automation
 9. python manage.py syncdb
 10. python manage.py runserver
-
+11. open browser
+12. 127.0.0.1:8000
+13. login
+14. username: dhiru 
+15. password: dhiru
